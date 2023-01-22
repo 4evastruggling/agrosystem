@@ -22,17 +22,17 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    margin-left: auto;
 }
 
 .nav-link {
     text-decoration: none;
     font-variant: small-caps;
     color: #241C15;
-    padding: 0px;
 }
 
 .nav-item {
-    padding: 30px 15px;
+    padding: 15px;
     color: #241C15;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -40,11 +40,10 @@
 }
 
 .call {
-    background-color: #241C15;;
+    background-color: #241C15;
     padding: 12px 24px;
-    margin-top: -30px;
     font-size: 16px;
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     border-radius: 26px;
     border: solid 1px 241C15;
 }
@@ -53,6 +52,8 @@
     text-decoration: none;
     color: #E7B75F;
 }
+
+
 
 /*---------------------------------Конец шапки--------------------------*/
 
@@ -105,7 +106,7 @@
     padding-bottom: 39px;
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
+    max-width: 700px;
     line-height: 116%;
 }
 
@@ -144,7 +145,7 @@
     font-size: 20px;
     padding-top: 20px;
     line-height: 28px;
-    width: 800px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -153,7 +154,6 @@
     text-align: center;
     margin-top: 77px;
 }
-
 
 .pic {
     margin-top: 86px;
@@ -231,7 +231,7 @@
     line-height: 116%;
 }
 
-.foods-list{
+.foods-list {
     margin: 100px 30px 50px 50px;
 }
 
@@ -292,4 +292,29 @@ footer {
 
 .last {
     margin-bottom: 40px;
+}
+
+
+@media (max-width: 992px) {
+
+    .navbar-toggler {
+        display: inline-block;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .call {
+        padding: 10px 20px;
+        font-size: 14px;
+
+    .intro {
+        margin-top: 40px;
+    }
 }
