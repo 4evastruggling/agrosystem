@@ -87,13 +87,11 @@
 
 .first {
     text-align: center;
-    margin: 60px 0px 20px;
-    color: white;
-}
-
-.second {
-    text-align: center;
-    margin: 100px 0px 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    max-width: 700px;
     color: white;
 }
 
@@ -124,6 +122,12 @@
     border: none;
 }
 
+.go-catalog:hover {
+    background-color: #241C15;
+    color: #E7B75F;
+    transition: 0.1;
+}
+
 .button-group {
     display: flex;
     flex-direction: row;
@@ -135,6 +139,10 @@
     color: #241C15;
 }
 
+.title-button:hover {
+    color: #E7B75F;
+}
+
 .center-catalog {
     text-align: center;
     margin-bottom: 80px;
@@ -144,11 +152,11 @@
 .about-text {
     color: #241C15;
     font-family: Open Sans, sans-serif;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
     padding-top: 20px;
     line-height: 28px;
-    max-width: 800px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -326,6 +334,7 @@ footer {
 
     .title-description{
       font-size: 18px;
+      max-width: 300px;
     }
 
     .title {
@@ -350,5 +359,45 @@ footer {
 
     .title {
         font-size: 30px;
+    }
+
+    .go-catalog {
+        max-width: 220px;
+    }
+
+    .about-text {
+       font-size: 16px; 
+       max-width: 300px;
+       text-align: left;
+    }
+
+    .first {
+        margin-top: 30px;
+    }
+
+    .foods-list {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+
+    .foods-type {
+        margin-bottom: 40px;
+    }
+
+    .contact-pic {
+        height: 50px;
+    }
+    .title-contact {
+        margin-top: 40px;
+    }
+
+    .contact-item {
+        font-size: 24px;
+    }
+
+    .contact-description {
+        font-size: 16px;
     }
 }
