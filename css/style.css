@@ -46,14 +46,15 @@
     font-family: Roboto, sans-serif;
     border-radius: 26px;
     border: solid 1px 241C15;
-}
-
-.call-button {
     text-decoration: none;
     color: #E7B75F;
 }
 
-
+.call:hover {
+    background-color: #E7B75F;
+    color: #241C15;
+    transition: 0.3s;
+}
 
 /*---------------------------------Конец шапки--------------------------*/
 
@@ -120,27 +121,22 @@
     font-family: Arial, sans-serif;
     border-radius: 26px;
     border: none;
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+    text-decoration: none;
 }
 
 .go-catalog:hover {
     background-color: #241C15;
     color: #E7B75F;
-    transition: 0.1;
+    transition: 0.3s;
 }
 
 .button-group {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.title-button {
-    text-decoration: none;
-    color: #241C15;
-}
-
-.title-button:hover {
-    color: #E7B75F;
 }
 
 .center-catalog {
@@ -169,10 +165,17 @@
 .pic {
     margin-top: 86px;
     display: flex;
-    height: 300px;
     margin-bottom: 15px;
     justify-content: center;
     border: solid 1px #000;
+}
+
+.pic-in {
+    max-width: 100%;
+}
+
+.document-pic {
+    max-width: 100%;
 }
 
 .document-description {
@@ -332,9 +335,9 @@ footer {
 
     }
 
-    .title-description{
-      font-size: 18px;
-      max-width: 300px;
+    .title-description {
+        font-size: 18px;
+        max-width: 300px;
     }
 
     .title {
@@ -363,12 +366,15 @@ footer {
 
     .go-catalog {
         max-width: 220px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
     }
 
     .about-text {
-       font-size: 16px; 
-       max-width: 300px;
-       text-align: left;
+        font-size: 16px;
+        max-width: 300px;
+        text-align: left;
     }
 
     .first {
@@ -389,6 +395,7 @@ footer {
     .contact-pic {
         height: 50px;
     }
+
     .title-contact {
         margin-top: 40px;
     }
@@ -400,4 +407,10 @@ footer {
     .contact-description {
         font-size: 16px;
     }
+
+    .pic {
+        border: none;
+        margin-top: 40px;
+    }
+
 }
