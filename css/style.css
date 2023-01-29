@@ -215,7 +215,7 @@
 .contact-pic {
     height: 100px;
     display: flex;
-    max-width: 100%;
+    max-width: 100px;
 }
 
 .contact-description {
@@ -400,7 +400,7 @@ footer {
 
     .contact-pic {
         height: 50px;
-        max-width: 100%;
+        max-width: 60px;
     }
 
     .title-contact {
