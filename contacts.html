@@ -19,7 +19,10 @@
         <div class="nav-table">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <img class="logo" src="img/logo.png" alt="Логотип">
+                    <picture>
+                        <source srcset="img/logo.webp" type="image/webp">
+                        <img src="img/logo.png" class="logo" alt="Логотип">
+                    </picture>
                     <a class="call" href="tel:8-962-805-9822" title="Позвонить менеджеру"><b>+7-962-805-9822</b></a>
                     </li>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -43,7 +46,6 @@
                 </div>
             </nav>
         </div>
-
         <section class="contacts-title">
             <div class="container">
                 <div class="row">
@@ -55,15 +57,15 @@
                 </div>
             </div>
         </section>
-
         <section class="contacts-list">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="contact">
-                            <div class="contact-pic">
-                                <img src="img/address.png" alt="" /></a>
-                            </div>
+                            <picture>
+                                <source srcset="img/address.webp" type="image/webp">
+                                <img class="contact-pic" src="img/address.png" alt="" /></a>
+                            </picture>
                             <div class="about-contact">
                                 <h2 class="contact-item">Адрес</h2>
                                 <p class="contact-description">Алтайский край, город Барнаул, проезд Южный, дом 12В,
@@ -71,9 +73,10 @@
                             </div>
                         </div>
                         <div class="contact">
-                            <div class="contact-pic">
-                                <img src="img/phone.png" alt="" /></a>
-                            </div>
+                            <picture>
+                                <source srcset="img/phone.webp" type="image/webp">
+                                <img class="contact-pic" src="img/phone.png" alt="" /></a>
+                            </picture>
                             <div class="about-contact">
                                 <h2 class="contact-item">Отдел продаж</h2>
                                 <p class="contact-description"><a href="tel:8-906-964-0343"> 8-906-964-0343 Сергей</a>
@@ -81,14 +84,14 @@
                                 <p class="contact-description"><a href="tel:8-962-797-9812"> 8-962-797-9812 Алексей</a>
                                 <p class="contact-description"><a href="tel:8-962-805-9822"> 8-962-805-9822 Ирина</a>
                                 </p>
-                                <p class="contact-description"><a class="messenger" href="https://wa.me/79628059822">Whatsapp</a></p>
-                                <p class="contact-description"><a class="messenger" href="https://telegram.me/altay_kombikorm">Telegram</a></p>
+                                <p class="contact-description"><a class="messenger"
+                                        href="https://wa.me/79628059822">Whatsapp</a></p>
+                                <p class="contact-description"><a class="messenger"
+                                        href="https://telegram.me/altay_kombikorm">Telegram</a></p>
                             </div>
                         </div>
                         <div class="contact">
-                            <div class="contact-pic">
-                                <img src="img/email.png" alt="" /></a>
-                            </div>
+                            <img class="contact-pic" src="img/email.png" alt="" /></a>
                             <div class="about-contact">
                                 <h2 class="contact-item">Почта</h2>
                                 <p class="contact-description"><a
@@ -113,10 +116,19 @@
             <div class="footer-contacts">
                 <p class="company-description"><b>Мы доступны в мессенджерах:</b></p>
                 <ul class="menu-contacts">
-                    <li><a class="messenger" href="https://wa.me/79628059822"><img src="img/whatsapp.png"></a>
+                    <li><a class="messenger" href="https://wa.me/79628059822">
+                            <picture>
+                                <source srcset="img/whatsapp.webp" type="image/webp"><img class="messenger-pic"
+                                    src="img/whatsapp.png">
+                            </picture>
+                        </a>
                     </li>
-                    <li><a class="messenger" href="https://telegram.me/altay_kombikorm"><img src="img/telegram.png"></a>
-                    </li>
+                    <li><a class="messenger" href="https://telegram.me/altay_kombikorm">
+                            <picture>
+                                <source srcset="img/telegram.webp" type="image/webp"><img class="messenger-pic"
+                                    src="img/telegram.png">
+                            </picture>
+                        </a>
                 </ul>
                 <p class="company-description last"><b>Агросистема © Все права защищены</b></p>
             </div>
