@@ -260,6 +260,10 @@
     margin: 100px 30px 50px 50px;
 }
 
+.about-type {
+    overflow: auto;
+}
+
 .foods-box {
     border: solid 2px #241C15;
     padding: 10px 20px;
