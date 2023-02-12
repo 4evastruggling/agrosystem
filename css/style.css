@@ -170,6 +170,10 @@
     border: solid 1px #000;
 }
 
+.add{
+    border: none;
+}
+
 .pic-in {
     max-width: 70%;
 }
@@ -237,7 +241,7 @@
 .pic2 {
     margin-top: 86px;
     display: flex;
-    height: 300px;
+    height: 200px;
     margin-bottom: 15px;
     justify-content: center;
 }
@@ -247,8 +251,9 @@
     font-family: Open Sans, sans-serif;
     text-align: left;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 116%;
+    text-align: center;
 }
 
 .foods-list {
@@ -258,6 +263,10 @@
 .foods-box {
     border: solid 2px #241C15;
     padding: 10px 20px;
+}
+
+.center-this {
+    text-align: left;
 }
 
 .row {
