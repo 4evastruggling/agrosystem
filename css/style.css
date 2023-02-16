@@ -263,7 +263,7 @@
 }
 
 .foods-list {
-    margin: 100px 30px 50px 50px;
+    margin: 50px 30px 50px 50px;
 }
 
 .about-type {
@@ -368,6 +368,10 @@ footer {
         max-width: 300px;
     }
 
+    .type-description {
+        font-size: 16px;
+    }
+
     .title {
         font-size: 32px;
     }
@@ -410,7 +414,7 @@ footer {
     }
 
     .foods-list {
-        margin-top: 50px;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0px;
